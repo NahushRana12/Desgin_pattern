@@ -9,6 +9,9 @@ Christopher Alexander says, "Each pattern describes a problem which occurs over 
 SOLID is an acronym for five design principles that help software developers create maintainable, scalable, and flexible software systems. These principles are:
 1. **Single Responsibility Principle (SRP)**: A class should have only one reason to change, meaning it should have only one job or responsibility. This makes the class easier to understand and maintain.
 2. **Open/Closed Principle (OCP)**: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that you should be able to add new functionality without changing existing code.
+3. **Liskov Substitution Principle (LSP)**: Subtypes must be substitutable for their base types without altering the correctness of the program. This means that derived classes should extend the base class without changing its behavior.
+4. **Interface Segregation Principle (ISP)**: Clients should not be forced to depend on interfaces they do not use. This means that you should create smaller, more specific interfaces rather than large, general-purpose ones.
+5. **Dependency Inversion Principle (DIP)**: High-level modules should not depend on low-level modules. Both should depend on abstractions. This means that you should depend on interfaces or abstract classes rather than concrete implementations.
 
 ## Pattern has four elements to it
 1. Pattern Name: so we can easily recognize the core pattern and logic behind it.
